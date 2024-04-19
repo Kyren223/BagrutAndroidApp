@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="dark_primary">#0e75a8</color>
+    <color name="dark_secondary">#1a2436</color>
+    <color name="dark_background">#0f172a</color>
+    <color name="dark_text_primary">#fefeff</color>
+    <color name="dark_text_secondary">#27bae1</color>
+    <color name="dark_text_hint">#2dd4bf</color>
+    <color name="dark_text_highlighted">#62abf4</color>
+    <color name="dark_text_highlighted_hover">#5fa6ee</color>
+    <color name="dark_button_primary">#0ea5e9</color>
+    <color name="dark_button_primary_pressed">#062b50</color>
+    <color name="dark_button_secondary">#1e293b</color>
+    <color name="dark_button_secondary_pressed">#3b4a59</color>
+    <color name="dark_button_disabled">#141a1f</color>
+    <color name="dark_accent_primary">#1e293b</color>
+    <color name="dark_accent_secondary">#020617</color>
+    <color name="dark_error">#db6c71</color>
+<!--    <color name="dark_error">#eb0014</color>-->
+    <color name="dark_info">#d9cf6f</color>
+
+    <color name="light_primary">#FF039BE5</color>
+    <color name="light_secondary">#FF039BE5</color>
+    <color name="light_background">#FFFFFFFF</color>
+    <color name="light_text_primary">#FF000000</color>
+    <color name="light_text_secondary">#FF000000</color>
+    <color name="light_text_hint">#FF000000</color>
+    <color name="light_text_highlighted">#FF000000</color>
+    <color name="light_text_highlighted_hover">#FF000000</color>
+    <color name="light_button_primary">#FF039BE5</color>
+    <color name="light_button_primary_pressed">#FF40C4FF</color>
+    <color name="light_button_secondary">#FF039BE5</color>
+    <color name="light_button_secondary_pressed">#FF40C4FF</color>
+    <color name="light_button_disabled">#FF01579B</color>
+    <color name="light_accent_primary">#FF01579B</color>
+    <color name="light_accent_secondary">#FF000000</color>
+    <color name="light_error">#FF000000</color>
+    <color name="light_info">#FF000000</color>
+
+    <!-- Chess board colors -->
+    <color name="chess_dark_square">#d18b47</color>
+    <color name="chess_light_square">#ffce9e</color>
+    <color name="chess_selected_square">#E91E63</color>
+    <color name="chess_last_move_square">#FFC107</color>
+
+</resources>

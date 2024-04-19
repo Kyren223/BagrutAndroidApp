@@ -1,0 +1,82 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Widget.Theme.EchoMobile.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="Theme.EchoMobile" parent="Base.Theme.EchoMobile">
+        <item name="android:background">?attr/backgroundColor</item>
+        <item name="android:statusBarColor">?attr/backgroundColor</item>
+
+    </style>
+
+    <style name="AuthenticationTitle">
+        <item name="android:textColor">?attr/secondaryTextColor</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AuthenticationLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:paddingHorizontal">4dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:textColor">?attr/primaryTextColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AuthenticationInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/authentication_input</item>
+        <item name="android:textColor">?attr/primaryTextColor</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="borderRound">8dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="AuthenticationError">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingHorizontal">4dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">?attr/errorColor</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="Button.Primary" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/ripple_button</item>
+        <item name="android:backgroundTint">?attr/primaryButtonColor</item>
+        <item name="android:state_pressed">?attr/primaryButtonPressedColor</item>
+        <item name="android:textColor">?attr/primaryTextColor</item>
+    </style>
+
+    <style name="Button.PrimaryDisabled" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/ripple_button</item>
+        <item name="android:backgroundTint">?attr/primaryButtonPressedColor</item>
+        <item name="android:state_pressed">?attr/primaryButtonColor</item>
+        <item name="android:textColor">?attr/primaryTextColor</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Widget.AppCompat.Button">
+        <item name="android:background">?attr/secondaryButtonColor</item>
+        <item name="android:textColor">?attr/secondaryTextColor</item>
+    </style>
+
+    <style name="Button.PasswordToggle" parent="Widget.AppCompat.Button">
+        <item name="android:background">?attr/secondaryButtonColor</item>
+        <item name="android:textColor">?attr/secondaryTextColor</item>
+    </style>
+
+    <style name="Switch.Primary" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:scaleX">2</item>
+        <item name="android:scaleY">2</item>
+    </style>
+
+</resources>

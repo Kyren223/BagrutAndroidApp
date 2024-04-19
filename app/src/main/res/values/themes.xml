@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EchoMobile" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">?attr/primaryButtonColor</item>
+        <item name="colorSecondary">?attr/primaryButtonColor</item>
+
+        <item name="primaryColor">@color/light_primary</item>
+        <item name="secondaryColor">@color/light_secondary</item>
+        <item name="backgroundColor">@color/light_background</item>
+        <item name="primaryButtonColor">@color/light_button_primary</item>
+        <item name="primaryButtonPressedColor">@color/light_button_primary_pressed</item>
+        <item name="secondaryButtonColor">@color/light_button_secondary</item>
+        <item name="secondaryButtonPressedColor">@color/light_button_secondary_pressed</item>
+        <item name="buttonDisabledColor">@color/light_button_disabled</item>
+        <item name="primaryTextColor">@color/light_text_primary</item>
+        <item name="secondaryTextColor">@color/light_text_secondary</item>
+        <item name="hintTextColor">@color/light_text_hint</item>
+        <item name="highlightedTextColor">@color/light_text_highlighted</item>
+        <item name="hoverHighlightedTextColor">@color/light_text_highlighted_hover</item>
+        <item name="primaryAccentColor">@color/light_accent_primary</item>
+        <item name="secondaryAccentColor">@color/light_accent_secondary</item>
+
+    </style>
+
+    <style name="ThemeOverlay.EchoMobile.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+
+    <style name="Theme.EchoMobile.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.EchoMobile.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">?attr/secondaryColor</item>
+        <item name="android:textColor">?attr/secondaryTextColor</item>
+        <item name="titleTextColor">?attr/secondaryTextColor</item>
+        <item name="android:icon">@drawable/ic_visibility</item>
+    </style>
+
+</resources>

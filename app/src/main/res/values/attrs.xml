@@ -1,0 +1,26 @@
+<resources>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+
+
+        <attr name="primaryColor" format="reference|color" />
+        <attr name="secondaryColor" format="reference|color" />
+        <attr name="backgroundColor" format="reference|color" />
+        <attr name="primaryButtonColor" format="reference|color" />
+        <attr name="primaryButtonPressedColor" format="reference|color" />
+        <attr name="secondaryButtonColor" format="reference|color" />
+        <attr name="secondaryButtonPressedColor" format="reference|color" />
+        <attr name="buttonDisabledColor" format="reference|color" />
+        <attr name="primaryTextColor" format="reference|color" />
+        <attr name="secondaryTextColor" format="reference|color" />
+        <attr name="hintTextColor" format="reference|color" />
+        <attr name="highlightedTextColor" format="reference|color" />
+        <attr name="hoverHighlightedTextColor" format="reference|color" />
+        <attr name="primaryAccentColor" format="reference|color" />
+        <attr name="secondaryAccentColor" format="reference|color" />
+        <attr name="errorColor" format="reference|color" />
+        <attr name="infoColor" format="reference|color" />
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_play">
+
+    <fragment
+        android:id="@+id/nav_play"
+        android:name="me.kyren223.echomobile.play.PlayFragment"
+        android:label="@string/menu_play"
+        tools:layout="@layout/fragment_play" />
+
+    <fragment
+        android:id="@+id/nav_game_history"
+        android:name="me.kyren223.echomobile.game_history.GameHistoryFragment"
+        android:label="@string/menu_game_history"
+        tools:layout="@layout/fragment_game_history" />
+
+    <fragment
+        android:id="@+id/nav_statistics"
+        android:name="me.kyren223.echomobile.statistics.StatisticsFragment"
+        android:label="@string/menu_statistics"
+        tools:layout="@layout/fragment_statistics" />
+
+    <fragment
+        android:id="@+id/nav_achievements"
+        android:name="me.kyren223.echomobile.achievements.AchievementsFragment"
+        android:label="@string/menu_achievements"
+        tools:layout="@layout/fragment_achievements" />
+
+    <activity
+        android:id="@+id/nav_settings_activity"
+        android:name="me.kyren223.echomobile.settings.SettingsActivity"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/settings_activity" />
+</navigation>

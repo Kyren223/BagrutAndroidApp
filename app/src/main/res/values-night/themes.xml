@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EchoMobile" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">?attr/primaryButtonColor</item>
+        <item name="colorSecondary">?attr/primaryButtonColor</item>
+        <item name="color">?attr/primaryButtonColor</item>
+        <item name="colorAccent">?attr/primaryButtonColor</item>
+
+        <item name="primaryColor">@color/dark_primary</item>
+        <item name="secondaryColor">@color/dark_secondary</item>
+        <item name="backgroundColor">@color/dark_background</item>
+        <item name="primaryButtonColor">@color/dark_button_primary</item>
+        <item name="primaryButtonPressedColor">@color/dark_button_primary_pressed</item>
+        <item name="secondaryButtonColor">@color/dark_button_secondary</item>
+        <item name="secondaryButtonPressedColor">@color/dark_button_secondary_pressed</item>
+        <item name="buttonDisabledColor">@color/dark_button_disabled</item>
+        <item name="primaryTextColor">@color/dark_text_primary</item>
+        <item name="secondaryTextColor">@color/dark_text_secondary</item>
+        <item name="hintTextColor">@color/dark_text_hint</item>
+        <item name="highlightedTextColor">@color/dark_text_highlighted</item>
+        <item name="hoverHighlightedTextColor">@color/dark_text_highlighted_hover</item>
+        <item name="primaryAccentColor">@color/dark_accent_primary</item>
+        <item name="secondaryAccentColor">@color/dark_accent_secondary</item>
+        <item name="errorColor">@color/dark_error</item>
+        <item name="infoColor">@color/dark_info</item>
+
+    </style>
+
+    <style name="ThemeOverlay.EchoMobile.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
+        <item name="fullscreenTextColor">@color/light_blue_A400</item>
+    </style>
+
+</resources>

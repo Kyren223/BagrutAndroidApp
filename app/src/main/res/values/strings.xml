@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">EchoMobile</string>
+    <string name="default_web_client_id">104398920702-bisfslcfcjaqa4aubq86vv9agg2dl9bn.apps.googleusercontent.com</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="sign_in_title">Account Login</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Login</string>
+    <string name="sign_up_title">Create an Account</string>
+    <string name="display_name">Display Name</string>
+    <string name="sign_up">Register</string>
+    <string name="move_to_sign_up">Need an account? Register</string>
+    <string name="move_to_sign_in">Already have an account?</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="title_activity_test">test</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_play">Play</string>
+    <string name="menu_game_history">Games History</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_achievements">Achievements</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="unknown_user">Guest</string>
+    <string name="log_out">Log Out</string>
+    <string name="menu_settings">Settings</string>
+    <string name="background_music">Background Music\n</string>
+    <string name="loading">Loading…</string>
+    <string name="play">Play</string>
+    <string name="game_history">Game History</string>
+    <string name="statistics">Statistics</string>
+    <string name="achievements">Achievements</string>
+    <string name="searching">Searching...</string>
+    <string name="resign">Resign</string>
+    <string name="draw">Offer Draw</string>
+    <string name="chess_no_score">0-0</string>
+    <string name="game_result">Game Result</string>
+    <string name="refresh_history">Refresh History</string>
+</resources>
